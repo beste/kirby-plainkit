@@ -1,0 +1,5 @@
+Title: Home
+
+----
+
+Text: Welcome to **{{ cookiecutter.kirby_title }}**

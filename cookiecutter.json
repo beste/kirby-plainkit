@@ -1,0 +1,8 @@
+{
+	"full_name": "Beste Person",
+	"email": "hey@beste.best",
+	"github_username": "beste",
+	"kirby_title": "My new website",
+	"project_slug": "{{ cookiecutter.kirby_title.lower().replace(' ', '-').replace('_', '-') }}",
+	"composer_package_name": "{{ cookiecutter.github_username.lower() }}/{{ cookiecutter.project_slug }}"
+}

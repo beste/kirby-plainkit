@@ -1,0 +1,26 @@
+{
+    "name": "{{ cookiecutter.composer_package_name }}",
+    "description": "{{ cookiecutter.kirby_title }}",
+    "type": "project",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "{{ cookiecutter.full_name }}",
+            "email": "{{ cookiecutter.email }}"
+        }
+    ],
+    "require": {
+        "getkirby/cms": "^3.5.3.1"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "kirby-cms-path": false
+    },
+    "scripts": {
+        "start": [
+            "@php -S localhost:8000 -t public"
+        ]
+    }
+}

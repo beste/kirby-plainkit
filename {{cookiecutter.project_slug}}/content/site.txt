@@ -1,0 +1,1 @@
+Title: {{ cookiecutter.kirby_title }}
