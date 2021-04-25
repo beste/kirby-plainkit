@@ -25,6 +25,10 @@ Generate a new Kirby site:
 $ cookiecutter gh:beste/kirby-plainkit
 ```
 
+## See it in action
+
+[![asciicast](https://asciinema.org/a/409907.svg)](https://asciinema.org/a/409907)
+
 ## User config
 
 If you use this (or other) Cookiecutters a lot, you can override the defaults by having
