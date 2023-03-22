@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "getkirby/cms": "^3.5.3.1"
+        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "getkirby/cms": "^3.9"
     },
     "config": {
         "optimize-autoloader": true
