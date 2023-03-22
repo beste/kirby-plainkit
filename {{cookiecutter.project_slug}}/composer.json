@@ -21,7 +21,8 @@
     },
     "scripts": {
         "start": [
-            "@php -S localhost:8000 -t public"
+            "Composer\\Config::disableProcessTimeout",
+            "@php -S localhost:8000 vendor/getkirby/cms/router.php"
         ]
     }
 }
