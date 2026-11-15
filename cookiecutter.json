@@ -1,4 +1,5 @@
 {
+	"_copy_without_render": [".github/workflows/*.yml"],
 	"full_name": "Beste Person",
 	"email": "hey@beste.best",
 	"github_username": "beste",
