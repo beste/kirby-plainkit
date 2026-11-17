@@ -58,4 +58,4 @@ jobs:
       - name: Run zizmor 🌈
         uses: zizmorcore/zizmor-action@45d7276c9ca790aabd705e31ca99c6185c3e76dd # v0.8.1
         with:
-          inputs: . '{{cookiecutter.project_slug}}'
+          inputs: . {{cookiecutter.project_slug}}
